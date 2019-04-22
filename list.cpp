@@ -1,6 +1,6 @@
    //Victor Ochia. CS202. Program #1 list.cpp Purpose of this file is to implement functions
    //from the classes in the list.h file
-   //purpose of assignment is to create an interactive go - fish game. 4/24/2015
+   //purpose of assignment is to create an interactive go - fish game.
 
 
 
