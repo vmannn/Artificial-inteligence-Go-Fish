@@ -1,5 +1,5 @@
    //Victor Ochia. CS202, Program # 1 main.cpp purpose of this file is to test out the program created in a client interface
-   //purpose of assignment is to create an interactive go - fish game. 4/24/20154/24/20154/24/20154/24/2015 
+   //purpose of assignment is to create an interactive go - fish game. 
 
 
 
