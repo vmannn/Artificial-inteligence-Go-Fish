@@ -9,7 +9,7 @@ good solution for this assignment because since we are using cards, we can sort 
 of cards. The doubly linked list makes it easier to shuffle the deck without the use of a previous pointer. I decided to use a hash 
 table for the players hand because it allows easy retrieval by simply organizing the key value by the card number that the player has.
 
-#Design Aspects
+# Design Aspects
 
 In terms of an object oriented design, I believe that my program represents one to an extent. All of the classes that I have set up 
 have clear and different roles. I believe that my classes are doing their own jobs and I found it easy to push up commonalities 
