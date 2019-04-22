@@ -11,7 +11,7 @@ table for the players hand because it allows easy retrieval by simply organizing
 
 # Design Aspects
 
-In terms of an object oriented design, I believe that my program represents one to an extent. All of the classes that I have set up 
+In terms of an object oriented design, I believe that my program has a good setup. All of the classes that I have set up 
 have clear and different roles. I believe that my classes are doing their own jobs and I found it easy to push up commonalities 
 between my classes, making some of them into a parent class, For example, there is a human player and a computer player in the go 
 fish game. It was easy for me to make note of the commonalities between both of these players and successfully push that up into a 
