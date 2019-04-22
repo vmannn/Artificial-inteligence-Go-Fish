@@ -1,6 +1,6 @@
   //Victor Ochia. CS202. Program #1 list.h. Purpose of this file is to display function
   //definitions within a hierchy of classes that iplement the structure of the program
-  //purpose of assignment is to create an interactive go - fish game. 4/24/2015
+  //purpose of assignment is to create an interactive go - fish game. 
 
 
 
