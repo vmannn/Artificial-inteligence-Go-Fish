@@ -1,0 +1,2874 @@
+Script started on Fri 24 Apr 2015 04:05:44 PM PDT
+vicochia@ada:~/CS202/program1$ logoutscript./a.outg++ *.cpp 
+vicochia@ada:~/CS202/program1$ g++ *.cpp [4Plogoutscript./a.out
+
+
+Welcome to the game of go-fish. The purpose of this game is to gather as many book of cards as possible
+You will be guessing what is in the computers hand and the computer will guess whats in yours
+(For testing purposes, your hand and the computers are available for viewing. Once you get a book of cards, they are removed from
+your hand. players start off with 7 cards each. The first player to have an empty hand wins the game.
+
+Starting game... Would you like to see the deck organized by suit before it is shuffled?(type: Y or N)
+
+y
+
+
+Below is the deck before it is shuffledCard Rank: Ace
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Club
+
+Card Rank: 3
+Card Suit: Club
+
+Card Rank: 4
+Card Suit: Club
+
+Card Rank: 5
+Card Suit: Club
+
+Card Rank: 6
+Card Suit: Club
+
+Card Rank: 7
+Card Suit: Club
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Club
+
+Card Rank: Jack
+Card Suit: Club
+
+Card Rank: Queen
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Club
+
+Card Rank: Ace
+Card Suit: Diamond
+
+Card Rank: 2
+Card Suit: Diamond
+
+Card Rank: 3
+Card Suit: Diamond
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 5
+Card Suit: Diamond
+
+Card Rank: 6
+Card Suit: Diamond
+
+Card Rank: 7
+Card Suit: Diamond
+
+Card Rank: 8
+Card Suit: Diamond
+
+Card Rank: 9
+Card Suit: Diamond
+
+Card Rank: 10
+Card Suit: Diamond
+
+Card Rank: Jack
+Card Suit: Diamond
+
+Card Rank: Queen
+Card Suit: Diamond
+
+Card Rank: King
+Card Suit: Diamond
+
+Card Rank: Ace
+Card Suit: Heart
+
+Card Rank: 2
+Card Suit: Heart
+
+Card Rank: 3
+Card Suit: Heart
+
+Card Rank: 4
+Card Suit: Heart
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 6
+Card Suit: Heart
+
+Card Rank: 7
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Heart
+
+Card Rank: 9
+Card Suit: Heart
+
+Card Rank: 10
+Card Suit: Heart
+
+Card Rank: Jack
+Card Suit: Heart
+
+Card Rank: Queen
+Card Suit: Heart
+
+Card Rank: King
+Card Suit: Heart
+
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: 2
+Card Suit: Spade
+
+Card Rank: 3
+Card Suit: Spade
+
+Card Rank: 4
+Card Suit: Spade
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 6
+Card Suit: Spade
+
+Card Rank: 7
+Card Suit: Spade
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 9
+Card Suit: Spade
+
+Card Rank: 10
+Card Suit: Spade
+
+Card Rank: Jack
+Card Suit: Spade
+
+Card Rank: Queen
+Card Suit: Spade
+
+Card Rank: King
+Card Suit: Spade
+
+
+
+**DECK HAS BEEN SHUFFLED**
+
+
+
+**initial cards have been given. Each player (You and the computer) start off with 7 cards**
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+1
+
+
+***Below is the deck***
+
+Card Rank: 3
+Card Suit: Spade
+
+Card Rank: 2
+Card Suit: Diamond
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: 10
+Card Suit: Spade
+
+Card Rank: 6
+Card Suit: Diamond
+
+Card Rank: 7
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Diamond
+
+Card Rank: 3
+Card Suit: Club
+
+Card Rank: 8
+Card Suit: Heart
+
+Card Rank: Jack
+Card Suit: Club
+
+Card Rank: 6
+Card Suit: Spade
+
+Card Rank: 2
+Card Suit: Heart
+
+Card Rank: 4
+Card Suit: Club
+
+Card Rank: 4
+Card Suit: Heart
+
+Card Rank: 6
+Card Suit: Club
+
+Card Rank: Jack
+Card Suit: Diamond
+
+Card Rank: 2
+Card Suit: Spade
+
+Card Rank: Jack
+Card Suit: Spade
+
+Card Rank: Ace
+Card Suit: Heart
+
+Card Rank: Queen
+Card Suit: Spade
+
+Card Rank: 10
+Card Suit: Heart
+
+Card Rank: 9
+Card Suit: Diamond
+
+Card Rank: 7
+Card Suit: Heart
+
+Card Rank: 7
+Card Suit: Diamond
+
+Card Rank: 9
+Card Suit: Spade
+
+Card Rank: Queen
+Card Suit: Diamond
+
+Card Rank: 4
+Card Suit: Spade
+
+Card Rank: King
+Card Suit: Spade
+
+Card Rank: 7
+Card Suit: Spade
+
+Card Rank: Ace
+Card Suit: Diamond
+
+Card Rank: Jack
+Card Suit: Heart
+
+Card Rank: King
+Card Suit: Diamond
+
+Card Rank: 9
+Card Suit: Heart
+
+Card Rank: 5
+Card Suit: Diamond
+
+Card Rank: 8
+Card Suit: Diamond
+
+Card Rank: 5
+Card Suit: Club
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+1
+
+
+Computer: I do not have any 1's. Go fish
+
+
+
+display your new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: 3
+Card Suit: Spade
+
+Card Rank: 3
+Card Suit: Heart
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 6
+Card Suit: Heart
+
+Card Rank: Queen
+Card Suit: Heart
+
+Card Rank: Queen
+Card Suit: Club
+
+
+
+Computer: Seems like you have 2 12's.I will be taking those.
+
+computer
+
+Computer: Seems like you have 2 3's.I will be taking those.
+
+computer
+
+Computer: So you dont have any 8's? I will go fish now.
+
+
+
+display computers new deck after fishing?(type Y or N)
+
+y
+Card Rank: 2
+Card Suit: Diamond
+
+Card Rank: 2
+Card Suit: Club
+
+Card Rank: 3
+Card Suit: Heart
+
+Card Rank: 3
+Card Suit: Spade
+
+Card Rank: 3
+Card Suit: Diamond
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Club
+
+Card Rank: Queen
+Card Suit: Club
+
+Card Rank: Queen
+Card Suit: Heart
+
+Card Rank: King
+Card Suit: Heart
+
+Card Rank: King
+Card Suit: Club
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+3
+
+
+Computer: Yes, I have 3 3's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+2
+
+
+Computer: Yes, I have 2 2's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+12
+
+
+Computer: Yes, I have 2 12's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+10
+
+
+Computer: Yes, I have 1 10's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+5
+
+
+Computer: Yes, I have 1 5's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+7
+
+
+Computer: I do not have any 7's. Go fish
+
+
+
+display your new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Diamond
+
+Card Rank: 3
+Card Suit: Diamond
+
+Card Rank: 3
+Card Suit: Spade
+
+Card Rank: 3
+Card Suit: Heart
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 6
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Club
+
+Card Rank: Queen
+Card Suit: Heart
+
+Card Rank: Queen
+Card Suit: Club
+
+
+
+Computer: So you dont have any 7's? I will go fish now.
+
+
+
+display computers new deck after fishing?(type Y or N)
+
+y
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Heart
+
+Card Rank: King
+Card Suit: Club
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+11
+
+
+Computer: I do not have any 11's. Go fish
+
+
+
+display your new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Diamond
+
+Card Rank: 3
+Card Suit: Diamond
+
+Card Rank: 3
+Card Suit: Spade
+
+Card Rank: 3
+Card Suit: Heart
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 6
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Club
+
+Card Rank: Queen
+Card Suit: Heart
+
+Card Rank: Queen
+Card Suit: Club
+
+
+
+Computer: Seems like you have 2 2's.I will be taking those.
+
+computer
+
+Computer: So you dont have any 9's? I will go fish now.
+
+
+
+display computers new deck after fishing?(type Y or N)
+
+y
+Card Rank: 2
+Card Suit: Diamond
+
+Card Rank: 2
+Card Suit: Club
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Spade
+
+Card Rank: King
+Card Suit: Heart
+
+Card Rank: King
+Card Suit: Club
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+2
+
+
+Computer: Yes, I have 2 2's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+8
+
+
+Computer: Yes, I have 1 8's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+9
+
+
+Computer: Yes, I have 1 9's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+13
+
+
+Computer: Yes, I have 2 13's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+5
+
+
+Computer: I do not have any 5's. Go fish
+
+
+
+display your new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Diamond
+
+Card Rank: 3
+Card Suit: Diamond
+
+Card Rank: 3
+Card Suit: Spade
+
+Card Rank: 3
+Card Suit: Heart
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 6
+Card Suit: Diamond
+
+Card Rank: 6
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Club
+
+Card Rank: Queen
+Card Suit: Heart
+
+Card Rank: Queen
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Heart
+
+
+
+Computer: Seems like you have 1 9's.I will be taking those.
+
+computer
+
+Computer: Seems like you have 1 4's.I will be taking those.
+
+computer
+
+Computer: Seems like you have 2 1's.I will be taking those.
+
+computer
+
+Computer: Seems like you have 3 3's.I will be taking those.
+
+computer
+
+Computer: So you dont have any 11's? I will go fish now.
+
+
+
+display computers new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: 3
+Card Suit: Heart
+
+Card Rank: 3
+Card Suit: Spade
+
+Card Rank: 3
+Card Suit: Diamond
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 7
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Spade
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+1
+
+
+Computer: Yes, I have 2 1's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+3
+
+
+Computer: Yes, I have 3 3's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+4
+
+
+Computer: Yes, I have 1 4's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+7
+
+
+Computer: Yes, I have 1 7's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+8
+
+
+Computer: I do not have any 8's. Go fish
+
+
+
+display your new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Diamond
+
+Card Rank: 3
+Card Suit: Diamond
+
+Card Rank: 3
+Card Suit: Spade
+
+Card Rank: 3
+Card Suit: Heart
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 6
+Card Suit: Diamond
+
+Card Rank: 6
+Card Suit: Heart
+
+Card Rank: 7
+Card Suit: Club
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Diamond
+
+Card Rank: 10
+Card Suit: Club
+
+Card Rank: Queen
+Card Suit: Heart
+
+Card Rank: Queen
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Heart
+
+
+
+Computer: Seems like you have 2 6's.I will be taking those.
+
+computer
+
+Computer: Seems like you have 2 1's.I will be taking those.
+
+computer
+
+Computer: So you dont have any 9's? I will go fish now.
+
+
+
+display computers new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: 3
+Card Suit: Club
+
+Card Rank: 6
+Card Suit: Heart
+
+Card Rank: 6
+Card Suit: Diamond
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Spade
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+1
+
+
+Computer: Yes, I have 2 1's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+3
+
+
+Computer: Yes, I have 1 3's.I will now give them to you.
+
+Current Player now has a book of 3's. A player wins once you have an empty hand.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+6
+
+
+Computer: Yes, I have 2 6's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+9
+
+
+Computer: Yes, I have 1 9's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+10
+
+
+Computer: Yes, I have 1 10's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+5
+
+
+Computer: I do not have any 5's. Go fish
+
+
+
+display your new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Diamond
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 6
+Card Suit: Diamond
+
+Card Rank: 6
+Card Suit: Heart
+
+Card Rank: 7
+Card Suit: Club
+
+Card Rank: 8
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Spade
+
+Card Rank: 10
+Card Suit: Diamond
+
+Card Rank: 10
+Card Suit: Club
+
+Card Rank: Queen
+Card Suit: Heart
+
+Card Rank: Queen
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Heart
+
+
+
+Computer: Seems like you have 3 10's.I will be taking those.
+
+computer
+
+Computer: Seems like you have 1 7's.I will be taking those.
+
+computer
+
+Computer: So you dont have any 10's? I will go fish now.
+
+
+
+display computers new deck after fishing?(type Y or N)
+
+y
+Card Rank: 7
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Diamond
+
+Card Rank: 10
+Card Suit: Spade
+
+Card Rank: Jack
+Card Suit: Club
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+7
+
+
+Computer: Yes, I have 1 7's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+10
+
+
+Computer: Yes, I have 3 10's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+11 3
+
+
+Computer: I do not have any 13's. Go fish
+
+
+
+display your new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Diamond
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 6
+Card Suit: Spade
+
+Card Rank: 6
+Card Suit: Diamond
+
+Card Rank: 6
+Card Suit: Heart
+
+Card Rank: 7
+Card Suit: Club
+
+Card Rank: 8
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Spade
+
+Card Rank: 10
+Card Suit: Diamond
+
+Card Rank: 10
+Card Suit: Club
+
+Card Rank: Queen
+Card Suit: Heart
+
+Card Rank: Queen
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Heart
+
+
+
+Computer: So you dont have any 3's? I will go fish now.
+
+
+
+display computers new deck after fishing?(type Y or N)
+
+y
+Card Rank: 2
+Card Suit: Heart
+
+Card Rank: Jack
+Card Suit: Club
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+12
+
+
+Computer: I do not have any 12's. Go fish
+
+
+
+display your new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Diamond
+
+Card Rank: 4
+Card Suit: Club
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 6
+Card Suit: Spade
+
+Card Rank: 6
+Card Suit: Diamond
+
+Card Rank: 6
+Card Suit: Heart
+
+Card Rank: 7
+Card Suit: Club
+
+Card Rank: 8
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Spade
+
+Card Rank: 10
+Card Suit: Diamond
+
+Card Rank: 10
+Card Suit: Club
+
+Card Rank: Queen
+Card Suit: Heart
+
+Card Rank: Queen
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Heart
+
+
+
+Computer: Seems like you have 2 4's.I will be taking those.
+
+computer
+
+Computer: So you dont have any 4's? I will go fish now.
+
+
+
+display computers new deck after fishing?(type Y or N)
+
+y
+Card Rank: 2
+Card Suit: Heart
+
+Card Rank: 4
+Card Suit: Heart
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 4
+Card Suit: Club
+
+Card Rank: Jack
+Card Suit: Club
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+2
+
+
+Computer: Yes, I have 1 2's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+4
+
+
+Computer: Yes, I have 3 4's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+12
+
+
+Computer: I do not have any 12's. Go fish
+
+
+
+display your new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Heart
+
+Card Rank: 2
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Diamond
+
+Card Rank: 4
+Card Suit: Club
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 4
+Card Suit: Heart
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 6
+Card Suit: Club
+
+Card Rank: 6
+Card Suit: Spade
+
+Card Rank: 6
+Card Suit: Diamond
+
+Card Rank: 6
+Card Suit: Heart
+
+Card Rank: 7
+Card Suit: Club
+
+Card Rank: 8
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Spade
+
+Card Rank: 10
+Card Suit: Diamond
+
+Card Rank: 10
+Card Suit: Club
+
+Card Rank: Queen
+Card Suit: Heart
+
+Card Rank: Queen
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Heart
+
+Current Player now has a book of 6's. A player wins once you have an empty hand.
+
+
+
+Computer: Seems like you have 3 2's.I will be taking those.
+
+computer
+
+Computer: So you dont have any 2's? I will go fish now.
+
+
+
+display computers new deck after fishing?(type Y or N)
+
+n y
+Card Rank: 2
+Card Suit: Diamond
+
+Card Rank: 2
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Heart
+
+Card Rank: Jack
+Card Suit: Diamond
+
+Card Rank: Jack
+Card Suit: Club
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+13
+
+
+Computer: I do not have any 13's. Go fish
+
+
+
+display your new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Spade
+
+Card Rank: 4
+Card Suit: Club
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 4
+Card Suit: Heart
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 7
+Card Suit: Club
+
+Card Rank: 8
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Spade
+
+Card Rank: 10
+Card Suit: Diamond
+
+Card Rank: 10
+Card Suit: Club
+
+Card Rank: Queen
+Card Suit: Heart
+
+Card Rank: Queen
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Heart
+
+
+
+Computer: Seems like you have 1 7's.I will be taking those.
+
+computer
+
+Computer: Seems like you have 3 4's.I will be taking those.
+
+computer
+
+Computer: Seems like you have 2 1's.I will be taking those.
+
+computer
+
+Computer: So you dont have any 6's? I will go fish now.
+
+
+
+display computers new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: 2
+Card Suit: Diamond
+
+Card Rank: 2
+Card Suit: Club
+
+Card Rank: 2
+Card Suit: Heart
+
+Card Rank: 4
+Card Suit: Heart
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 4
+Card Suit: Club
+
+Card Rank: 7
+Card Suit: Club
+
+Card Rank: Jack
+Card Suit: Spade
+
+Card Rank: Jack
+Card Suit: Diamond
+
+Card Rank: Jack
+Card Suit: Club
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+1
+
+
+Computer: Yes, I have 2 1's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+2
+
+
+Computer: Yes, I have 3 2's.I will now give them to you.
+
+Current Player now has a book of 2's. A player wins once you have an empty hand.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+4
+
+
+Computer: Yes, I have 3 4's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+7
+
+
+Computer: Yes, I have 1 7's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+11
+
+
+Computer: Yes, I have 3 11's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+6
+
+
+Computer: I do not have any 6's. Go fish
+
+
+
+display your new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Heart
+
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: 4
+Card Suit: Club
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 4
+Card Suit: Heart
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 7
+Card Suit: Club
+
+Card Rank: 8
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Spade
+
+Card Rank: 10
+Card Suit: Diamond
+
+Card Rank: 10
+Card Suit: Club
+
+Card Rank: Jack
+Card Suit: Club
+
+Card Rank: Jack
+Card Suit: Diamond
+
+Card Rank: Jack
+Card Suit: Spade
+
+Card Rank: Queen
+Card Suit: Heart
+
+Card Rank: Queen
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Heart
+
+
+
+Computer: Seems like you have 2 12's.I will be taking those.
+
+computer
+
+Computer: Seems like you have 1 9's.I will be taking those.
+
+computer
+
+Computer: Seems like you have 3 10's.I will be taking those.
+
+computer
+
+Computer: So you dont have any 3's? I will go fish now.
+
+
+
+display computers new deck after fishing?(type Y or N)
+
+y
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Diamond
+
+Card Rank: 10
+Card Suit: Spade
+
+Card Rank: Queen
+Card Suit: Spade
+
+Card Rank: Queen
+Card Suit: Club
+
+Card Rank: Queen
+Card Suit: Heart
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+9
+
+
+Computer: Yes, I have 1 9's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+10
+
+
+Computer: Yes, I have 3 10's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+13
+
+
+Computer: I do not have any 13's. Go fish
+
+
+
+display your new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Heart
+
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: 4
+Card Suit: Club
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 4
+Card Suit: Heart
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 7
+Card Suit: Club
+
+Card Rank: 8
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 10
+Card Suit: Heart
+
+Card Rank: 10
+Card Suit: Spade
+
+Card Rank: 10
+Card Suit: Diamond
+
+Card Rank: 10
+Card Suit: Club
+
+Card Rank: Jack
+Card Suit: Club
+
+Card Rank: Jack
+Card Suit: Diamond
+
+Card Rank: Jack
+Card Suit: Spade
+
+Card Rank: King
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Heart
+
+Current Player now has a book of 10's. A player wins once you have an empty hand.
+
+
+
+Computer: Seems like you have 2 5's.I will be taking those.
+
+computer
+
+Computer: Seems like you have 1 9's.I will be taking those.
+
+computer
+
+Computer: Seems like you have 3 8's.I will be taking those.
+
+computer
+
+Computer: So you dont have any 6's? I will go fish now.
+
+
+
+display computers new deck after fishing?(type Y or N)
+
+y
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 8
+Card Suit: Heart
+
+Card Rank: 9
+Card Suit: Diamond
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: Queen
+Card Suit: Spade
+
+Card Rank: Queen
+Card Suit: Club
+
+Card Rank: Queen
+Card Suit: Heart
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+5
+
+
+Computer: Yes, I have 2 5's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+8
+
+
+Computer: Yes, I have 3 8's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+9
+
+
+Computer: Yes, I have 2 9's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+11
+
+
+Computer: I do not have any 11's. Go fish
+
+
+
+display your new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Heart
+
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: 4
+Card Suit: Club
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 4
+Card Suit: Heart
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 7
+Card Suit: Heart
+
+Card Rank: 7
+Card Suit: Club
+
+Card Rank: 8
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Diamond
+
+Card Rank: Jack
+Card Suit: Club
+
+Card Rank: Jack
+Card Suit: Diamond
+
+Card Rank: Jack
+Card Suit: Spade
+
+Card Rank: King
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Heart
+
+
+
+Computer: Seems like you have 3 4's.I will be taking those.
+
+computer
+
+Computer: So you dont have any 12's? I will go fish now.
+
+
+
+display computers new deck after fishing?(type Y or N)
+
+y
+Card Rank: 4
+Card Suit: Heart
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 4
+Card Suit: Club
+
+Card Rank: 7
+Card Suit: Diamond
+
+Card Rank: Queen
+Card Suit: Spade
+
+Card Rank: Queen
+Card Suit: Club
+
+Card Rank: Queen
+Card Suit: Heart
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+4
+
+
+Computer: Yes, I have 3 4's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+7
+
+
+Computer: Yes, I have 1 7's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+12
+
+
+Computer: Yes, I have 3 12's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+6
+
+
+Computer: I do not have any 6's. Go fish
+
+
+
+display your new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Heart
+
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: 4
+Card Suit: Club
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 4
+Card Suit: Heart
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 7
+Card Suit: Diamond
+
+Card Rank: 7
+Card Suit: Heart
+
+Card Rank: 7
+Card Suit: Club
+
+Card Rank: 8
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Spade
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Diamond
+
+Card Rank: Jack
+Card Suit: Club
+
+Card Rank: Jack
+Card Suit: Diamond
+
+Card Rank: Jack
+Card Suit: Spade
+
+Card Rank: Queen
+Card Suit: Heart
+
+Card Rank: Queen
+Card Suit: Club
+
+Card Rank: Queen
+Card Suit: Spade
+
+Card Rank: King
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Heart
+
+
+
+Computer: Seems like you have 3 11's.I will be taking those.
+
+computer
+
+Computer: So you dont have any 6's? I will go fish now.
+
+
+
+display computers new deck after fishing?(type Y or N)
+
+y
+Card Rank: Jack
+Card Suit: Spade
+
+Card Rank: Jack
+Card Suit: Diamond
+
+Card Rank: Jack
+Card Suit: Club
+
+Card Rank: Queen
+Card Suit: Diamond
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+11
+
+
+Computer: Yes, I have 3 11's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+12
+
+
+Computer: Yes, I have 1 12's.I will now give them to you.
+
+Current Player now has a book of 12's. A player wins once you have an empty hand.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+5
+
+
+Computer: I do not have any 5's. Go fish
+
+
+
+display your new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Heart
+
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: 4
+Card Suit: Spade
+
+Card Rank: 4
+Card Suit: Club
+
+Card Rank: 4
+Card Suit: Diamond
+
+Card Rank: 4
+Card Suit: Heart
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 7
+Card Suit: Diamond
+
+Card Rank: 7
+Card Suit: Heart
+
+Card Rank: 7
+Card Suit: Club
+
+Card Rank: 8
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Spade
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Diamond
+
+Card Rank: Jack
+Card Suit: Club
+
+Card Rank: Jack
+Card Suit: Diamond
+
+Card Rank: Jack
+Card Suit: Spade
+
+Card Rank: King
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Heart
+
+Current Player now has a book of 4's. A player wins once you have an empty hand.
+
+
+
+Computer: So you dont have any 4's? I will go fish now.
+
+
+
+display computers new deck after fishing?(type Y or N)
+
+n
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+5
+
+
+Computer: I do not have any 5's. Go fish
+
+
+
+display your new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Heart
+
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 7
+Card Suit: Spade
+
+Card Rank: 7
+Card Suit: Diamond
+
+Card Rank: 7
+Card Suit: Heart
+
+Card Rank: 7
+Card Suit: Club
+
+Card Rank: 8
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Spade
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Diamond
+
+Card Rank: Jack
+Card Suit: Club
+
+Card Rank: Jack
+Card Suit: Diamond
+
+Card Rank: Jack
+Card Suit: Spade
+
+Card Rank: King
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Heart
+
+Current Player now has a book of 7's. A player wins once you have an empty hand.
+
+
+
+Computer: Seems like you have 3 1's.I will be taking those.
+
+computer
+
+Computer: Seems like you have 2 5's.I will be taking those.
+
+computer
+
+Computer: So you dont have any 4's? I will go fish now.
+
+
+
+display computers new deck after fishing?(type Y or N)
+
+y
+Card Rank: Ace
+Card Suit: Diamond
+
+Card Rank: Ace
+Card Suit: Club
+
+Card Rank: Ace
+Card Suit: Spade
+
+Card Rank: Ace
+Card Suit: Heart
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: King
+Card Suit: Spade
+
+Current Player now has a book of 1's. A player wins once you have an empty hand.
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+5
+
+
+Computer: Yes, I have 2 5's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+12
+
+
+Computer: I do not have any 12's. Go fish
+
+
+
+display your new deck after fishing?(type Y or N)
+
+y
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Spade
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Diamond
+
+Card Rank: Jack
+Card Suit: Heart
+
+Card Rank: Jack
+Card Suit: Club
+
+Card Rank: Jack
+Card Suit: Diamond
+
+Card Rank: Jack
+Card Suit: Spade
+
+Card Rank: King
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Heart
+
+Current Player now has a book of 11's. A player wins once you have an empty hand.
+
+
+
+Computer: So you dont have any 10's? I will go fish now.
+
+
+
+display computers new deck after fishing?(type Y or N)
+
+y
+Card Rank: King
+Card Suit: Diamond
+
+Card Rank: King
+Card Suit: Spade
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+12
+
+
+Computer: I do not have any 12's. Go fish
+
+
+
+display your new deck after fishing?(type Y or N)
+
+y
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 8
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Heart
+
+Card Rank: 9
+Card Suit: Spade
+
+Card Rank: 9
+Card Suit: Club
+
+Card Rank: 9
+Card Suit: Diamond
+
+Card Rank: King
+Card Suit: Club
+
+Card Rank: King
+Card Suit: Heart
+
+Current Player now has a book of 9's. A player wins once you have an empty hand.
+
+
+
+Computer: So you dont have any 6's? I will go fish now.
+
+
+
+display computers new deck after fishing?(type Y or N)
+
+y
+Card Rank: 5
+Card Suit: Diamond
+
+Card Rank: King
+Card Suit: Diamond
+
+Card Rank: King
+Card Suit: Spade
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+1 3 4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+13
+
+
+Computer: Yes, I have 2 13's.I will now give them to you.
+
+Current Player now has a book of 13's. A player wins once you have an empty hand.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+5
+
+
+Computer: Yes, I have 1 5's.I will now give them to you.
+
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+5
+
+
+Computer: I do not have any 5's. Go fish
+
+
+
+display your new deck after fishing?(type Y or N)
+
+y
+Card Rank: 5
+Card Suit: Diamond
+
+Card Rank: 5
+Card Suit: Spade
+
+Card Rank: 5
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Diamond
+
+Card Rank: 8
+Card Suit: Heart
+
+Card Rank: 8
+Card Suit: Spade
+
+Card Rank: 8
+Card Suit: Club
+
+Current Player now has a book of 8's. A player wins once you have an empty hand.
+
+
+
+Computer: So you dont have any 6's? I will go fish now.
+
+
+
+display computers new deck after fishing?(type Y or N)
+
+y
+Card Rank: 5
+Card Suit: Club
+
+
+
+Menu options. Enter a number corresponding with the choices:
+
+1. Display the deck             2. Display my hand
+
+3. Display computers hand       4. resume game
+
+5. Game over.
+
+4
+
+
+Enter a number 1-13 that you would like to ask the computer if they have
+
+5
+
+
+Computer: Yes, I have 1 5's.I will now give them to you.
+
+Current Player now has a book of 5's. A player wins once you have an empty hand.
+
+
+
+Computer: Congratualations. You win. Game over.
+
+vicochia@ada:~/CS202/program1$ quit
+No command 'quit' found, did you mean:
+ Command 'luit' from package 'x11-utils' (main)
+ Command 'quot' from package 'quota' (main)
+ Command 'quilt' from package 'quilt' (main)
+ Command 'quiz' from package 'bsdgames' (universe)
+ Command 'qgit' from package 'qgit' (universe)
+quit: command not found
+vicochia@ada:~/CS202/program1$ logout
+bash: logout: not login shell: use `exit'
+vicochia@ada:~/CS202/program1$ exit
+exit
+
+Script done on Fri 24 Apr 2015 04:17:30 PM PDT
